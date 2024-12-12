@@ -9,115 +9,93 @@
 <body>
 
 </body>
-<form class="row-md m-auto p-2 g-3 needs-validation" novalidate>
-    <div class="container-md ">
-        <div id="titulo" class="col">
-            <h3>Formulario de pago</h3>
-        </div>
-        <div id="tarjeta"class="d-flex">
-            <div class="col-5 mb-3 p-1">
-                <label for="exampleFormControlInput1" class="form-label">Número de tarjeta</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="xxxx xxxx xxxx xxxx">
+    <form class="row-md m-auto p-2 g-3">
+        <div class="container-md">
+            <div id="titulo" class="col">
+                <h3>Formulario de pago</h3>
             </div>
-            <div class="col-4 mb-3 p-1">
-                <label for="exampleFormControlInput1" class="form-label">CVC</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="000">
-            </div>
-            <div class="col-3 mb-3 p-1">
-                <label for="exampleFormControlInput1" class="form-label">Monto</label>
-                <div style="display: flex;align-items: baseline;">
-                    <span>$</span>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Monto a pagar">
+            <div id="tarjeta"class="d-flex">
+                <div class="col-5 mb-3 p-1">
+                    <label for="exampleFormControlInput1" class="form-label">Número de tarjeta</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="xxxx xxxx xxxx xxxx">
                 </div>
-            </div>
-        </div>
-        <div id="intermedio" class="d-flex">
-            <div id="izq" class="col d-flex flex-column p-1">
-                <div class="col-12 mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                <div class="col-4 mb-3 p-1">
+                    <label for="exampleFormControlInput1" class="form-label">CVC</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="000">
                 </div>
-                <div class="col-12 mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Cuidad</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
-                </div>
-                <div class="col-7">
-                    <span class="d-block p-1">Aceptamos: </span>
-                    <div class="bg-secondary text-center p-1">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-mastercard"></i></label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-visa"></i></label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                            <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-diners-club"></i></label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                            <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-amex"></i></label>
-                        </div>
+                <div class="col-3 mb-3 p-1">
+                    <label for="exampleFormControlInput1" class="form-label">Monto</label>
+                    <div style="display: flex;align-items: baseline;">
+                        <span>$</span>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Monto a pagar">
                     </div>
                 </div>
             </div>
-            <div id="der" class="col d-flex flex-column p-1">
-                <div class="col-12 mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
-                </div>
-                <div class="d-flex gap-1">
-                    <div class="col">
-                        <label for="inputState" class="form-label">Estado</label>
-                        <select id="inputState" class="form-select">
-                        <option selected>Seleccione un estado</option>
-                        <option>...</option>
-                        </select>
-                    </div>
-                    <div class="col mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Código Postal</label>
+            <div id="intermedio" class="d-flex">
+                <div id="izq" class="col d-flex flex-column p-1">
+                    <div class="col-12 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1">
                     </div>
+                    <div class="col-12 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Cuidad</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="col-7">
+                        <span class="d-block p-1">Aceptamos: </span>
+                        <div class="bg-secondary text-center p-1">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-mastercard"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-visa"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-diners-club"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-amex"></i></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div id="TextareaHelp" class="form-text fs-7 m-2">
-                    Agregue cualquier comentario aquí.
+                <div id="der" class="col d-flex flex-column p-1">
+                    <div class="col-12 mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="d-flex gap-1">
+                        <div class="col">
+                            <label for="inputState" class="form-label">Estado</label>
+                            <select id="inputState" class="form-select">
+                            <option selected>Seleccione un estado</option>
+                            <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Código Postal</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div id="TextareaHelp" class="form-text fs-7 m-2">
+                        Agregue cualquier comentario aquí.
+                    </div>
                 </div>
             </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-secondary me-md-2" type="button">Cancelar</button>
+                <button class="btn btn-primary" type="button">Enviar</button>
+            </div>
         </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn btn-secondary me-md-2" type="button">Cancelar</button>
-            <button class="btn btn-primary" type="button">Enviar</button>
-          </div>
-        
-                
-            
-        </div>
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
-</form>
+    </form>
     <script src="https://kit.fontawesome.com/1c22cdb647.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
